@@ -1,0 +1,89 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/todolist.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,
+.container {
+
+    color: white;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myToDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adding {
+    display: flex;
+    gap: 2em;
+}
+
+.listNtask {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    border-style: hidden;
+    border-radius: 5px;
+    background-image: url(../img/image.jpeg);
+    color: silver;
+    padding: 0px 10px 0px 10px;
+    margin: 5px;
+}
+
+.fa {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+
+
+
+}
+
+input {
+    border-radius: 5px;
+    border-color: silver;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#mytask {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mytask td,
+#mytask th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+#mytask th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
